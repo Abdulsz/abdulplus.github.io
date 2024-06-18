@@ -1,0 +1,189 @@
+html, body{
+	margin:0;
+	padding:0;
+}
+
+header{
+    background-color: #4B4237;
+    text-align: center;
+    padding:20px;    
+    color: rgb(255, 255, 255);
+}
+
+
+.firstqtr{
+    padding:0 12% 2% 12%;
+    color: rgb(232, 232, 232);
+    background-color: #4B4237;
+
+}
+
+
+header a{
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    font-weight: 1;
+
+
+
+}
+.front{
+    background-color: #4B4237;
+    color:white
+}
+.intro{
+  
+    padding: 0px 0px 8% 0px;
+    margin:30px;
+    font-family: Montserrat;
+}
+.intro h2{
+    font-size: 50px;
+    font-family: Montserrat;
+
+}
+.intro p{
+    font-size: 50px;
+    font-weight: 1;
+}
+
+.intro a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding:10px;
+    background-color: black;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+
+.intro a :hover{
+    background-color: bisque;
+
+}
+
+.about h1{
+    font-size:50px;
+    font-family: Montserrat;
+    font-weight: 10;
+    text-align: center;
+
+}
+
+.about p{
+    font-family: Montserrat;
+    font-size: 30px;
+    display: grid;
+    font-weight:10;
+}
+
+.about h2{
+    font-family: Montserrat;
+    padding: 5px;
+    font-size:25px;
+
+}
+.about{
+    display: grid;
+    grid-template-columns:auto;
+    background-color: #D5A021;
+    color: white;
+    padding:0 12% 2% 12%;
+
+}
+
+.project1, .project2, .project3, .project4 {
+    font-family: Montserrat;
+    padding-bottom: 50px;
+}
+
+.project1 h1{
+    font-size: 50px;
+    font-weight: 1;
+    text-align: center;
+}
+
+.project1 h2, .project2 h2, .project3 h2 .project4 h2{
+    font-size:25px;
+    
+}
+
+.project1 p, .project2 p, .project3 p, .project4 p{
+    font-size: 30px;
+    font-weight: 10;
+
+}
+
+
+
+.proj{
+    padding:1% 12% 2% 12%;
+    background-color: EDE7D9;
+}
+.demo, .demo a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding:10px;
+   
+
+    
+}
+
+.demo {
+    margin-right: 80%;
+ }
+
+.myimage img{
+    width:25%;
+    height:40%;
+    border-radius: 80%;
+    padding-top: 15px;;
+    
+ }
+
+ .project1 a img{
+    width:20%;
+    height:10%
+ }
+
+ .project2 a img{
+    width:20%;
+    height:10%
+ }
+
+ .project3 a img{
+    width:20%;
+    height:10%
+ }
+
+ .project1 a img
+    {
+        width: 15%;
+        padding-bottom:15px;
+    }
+
+footer{
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+footer p a{
+    text-decoration: none;
+    color: black;
+}
+ @media only screen and (max-width:800px){
+    .demo{
+    margin-right: 0%;
+    text-align: center;
+
+	}
+ 
+
+}
