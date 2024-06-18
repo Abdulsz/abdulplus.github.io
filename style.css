@@ -77,13 +77,13 @@ header a{
     font-family: Montserrat;
     font-size: 30px;
     display: grid;
-    font-weight:10;
 }
 
 .about h2{
     font-family: Montserrat;
     padding: 5px;
-    font-size:25px;
+    font-size:35px;
+    font-weight: 10;
 
 }
 .about{
@@ -106,14 +106,14 @@ header a{
     text-align: center;
 }
 
-.project1 h2, .project2 h2, .project3 h2 .project4 h2{
-    font-size:25px;
+.project1 h2, .project2 h2, .project3 h2, .project4 h2{
+    font-size:35px;
+    font-weight: 10;
     
 }
 
 .project1 p, .project2 p, .project3 p, .project4 p{
     font-size: 30px;
-    font-weight: 10;
 
 }
 
@@ -129,13 +129,20 @@ header a{
     color: white;
     border-radius: 5px;
     padding:10px;
+    font-weight: 300;
    
 
     
 }
 
 .demo {
-    margin-right: 80%;
+    text-align: left;
+    display: inline-block;
+    
+ }
+ 
+ .demo a:hover{
+    border-color: #D5A021;
  }
 
 .myimage img{
@@ -180,10 +187,23 @@ footer p a{
 }
  @media only screen and (max-width:800px){
     .demo{
+
     margin-right: 0%;
     text-align: center;
 
 	}
+    .myimage img{
+
+        width:50%;
+        height:35%;
+        border-radius: 80%;
+        padding-top: 15px;
+        
+
+        }
+    .myimage{
+        text-align: center;
+    }
  
 
 }
